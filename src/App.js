@@ -17,7 +17,7 @@ const App = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       fetchUser();
-    }, 5000);
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
