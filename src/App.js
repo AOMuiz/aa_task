@@ -38,19 +38,19 @@ const App = () => {
                   className="h-full w-full"
                 />
               </div>
-              <div className="mx-20 md:mx-10 flex gap-7">
+              <div className="mx-20 md:mx-10 sm:mx-5 flex  gap-7">
                 <div className="h-24 w-24 -translate-y-1/2 rounded-full border-4 border-white bg-red-400">
                   <img
                     src={user.picture.medium}
                     className="h-full w-full rounded-full"
-                    alt="profil image"
+                    alt="profile"
                   />
                 </div>
-                <h3 className="mt-3 text-xl capitalize text-white">
+                <h3 className="mt-3 text-2xl capitalize text-white">
                   Profile Details
                 </h3>
               </div>
-              <div className="mx-20 md:mx-10">
+              <div className="mx-20 md:mx-10 sm:mx-5">
                 <h1 className="text-3xl font-bold text-sky-400">
                   {`${user.name.title}. ${user.name.first} ${user.name.last}`}
                 </h1>
@@ -60,7 +60,7 @@ const App = () => {
                 <hr />
               </div>
             </section>
-            <section className="mx-20 md:mx-10 mt-4 flex gap-6">
+            <section className="mx-20 md:mx-10 sm:mx-5 mt-4 flex md:flex-col gap-6">
               <article className="flex-1 rounded-md bg-[#3d3f54] p-4 pt-8 font-inter">
                 <h3 className="text-md border-b-2 border-b-sky-300 pb-2 text-lg font-bold text-[#dcdce0]">
                   Profile Summary
